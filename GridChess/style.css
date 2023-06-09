@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 0.3fr 1fr 1fr;
+     
+    height: 800px;
+    max-width: 2000px;
+    gap: 3rem;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: blue;
+}
+.card1{
+    grid-column: span 2;
+}
+.card3{
+    grid-column: span 2;
+}
