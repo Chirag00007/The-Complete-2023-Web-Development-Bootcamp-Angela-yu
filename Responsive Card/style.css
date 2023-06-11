@@ -42,6 +42,7 @@ body{
     background-color:rgb(41, 128, 186);
     padding: 3px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .image .profile-image{
     height: 100%;
